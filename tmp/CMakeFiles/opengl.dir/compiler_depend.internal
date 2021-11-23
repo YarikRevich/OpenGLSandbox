@@ -230,6 +230,43 @@ CMakeFiles/opengl.dir/src/error.cpp.o
  /Volumes/Files/c/opengl/vendor/glad/include/glad/glad.h
  /Volumes/Files/c/opengl/vendor/glad/include/KHR/khrplatform.h
 
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.o
+ /Volumes/Files/c/opengl/src/indexBuffer.cpp
+ /Volumes/Files/c/opengl/src/indexBuffer.hpp
+ /Volumes/Files/c/opengl/src/renderer.hpp
+ /Volumes/Files/c/opengl/vendor/glad/include/glad/glad.h
+ /Volumes/Files/c/opengl/vendor/glad/include/KHR/khrplatform.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h
+
 CMakeFiles/opengl.dir/src/loader.cpp.o
  /Volumes/Files/c/opengl/src/loader.cpp
  /Volumes/Files/c/opengl/src/loader.hpp
@@ -892,4 +929,47 @@ CMakeFiles/opengl.dir/src/main.cpp.o
  /Volumes/Files/c/opengl/vendor/glm/include/glm/geometric.hpp
  /Volumes/Files/c/opengl/vendor/glm/include/glm/trigonometric.hpp
  /Volumes/Files/c/opengl/vendor/glm/include/glm/matrix.hpp
+ /Volumes/Files/c/opengl/src/renderer.hpp
+ /Volumes/Files/c/opengl/src/indexBuffer.hpp
+ /Volumes/Files/c/opengl/src/vertexBuffer.hpp
+
+CMakeFiles/opengl.dir/src/renderer.cpp.o
+ /Volumes/Files/c/opengl/src/renderer.cpp
+
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o
+ /Volumes/Files/c/opengl/src/vertexBuffer.cpp
+ /Volumes/Files/c/opengl/src/vertexBuffer.hpp
+ /Volumes/Files/c/opengl/src/renderer.hpp
+ /Volumes/Files/c/opengl/vendor/glad/include/glad/glad.h
+ /Volumes/Files/c/opengl/vendor/glad/include/KHR/khrplatform.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h
 

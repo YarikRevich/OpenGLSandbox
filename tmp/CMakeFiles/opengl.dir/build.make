@@ -111,11 +111,56 @@ CMakeFiles/opengl.dir/src/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/src/error.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/opengl/src/error.cpp -o CMakeFiles/opengl.dir/src/error.cpp.s
 
+CMakeFiles/opengl.dir/src/renderer.cpp.o: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/src/renderer.cpp.o: ../src/renderer.cpp
+CMakeFiles/opengl.dir/src/renderer.cpp.o: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/opengl/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opengl.dir/src/renderer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/src/renderer.cpp.o -MF CMakeFiles/opengl.dir/src/renderer.cpp.o.d -o CMakeFiles/opengl.dir/src/renderer.cpp.o -c /Volumes/Files/c/opengl/src/renderer.cpp
+
+CMakeFiles/opengl.dir/src/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/src/renderer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Files/c/opengl/src/renderer.cpp > CMakeFiles/opengl.dir/src/renderer.cpp.i
+
+CMakeFiles/opengl.dir/src/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/src/renderer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/opengl/src/renderer.cpp -o CMakeFiles/opengl.dir/src/renderer.cpp.s
+
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.o: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.o: ../src/indexBuffer.cpp
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.o: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/opengl/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opengl.dir/src/indexBuffer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/src/indexBuffer.cpp.o -MF CMakeFiles/opengl.dir/src/indexBuffer.cpp.o.d -o CMakeFiles/opengl.dir/src/indexBuffer.cpp.o -c /Volumes/Files/c/opengl/src/indexBuffer.cpp
+
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/src/indexBuffer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Files/c/opengl/src/indexBuffer.cpp > CMakeFiles/opengl.dir/src/indexBuffer.cpp.i
+
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/src/indexBuffer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/opengl/src/indexBuffer.cpp -o CMakeFiles/opengl.dir/src/indexBuffer.cpp.s
+
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o: ../src/vertexBuffer.cpp
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Files/c/opengl/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o -MF CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o.d -o CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o -c /Volumes/Files/c/opengl/src/vertexBuffer.cpp
+
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/src/vertexBuffer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Files/c/opengl/src/vertexBuffer.cpp > CMakeFiles/opengl.dir/src/vertexBuffer.cpp.i
+
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/src/vertexBuffer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Files/c/opengl/src/vertexBuffer.cpp -o CMakeFiles/opengl.dir/src/vertexBuffer.cpp.s
+
 # Object files for target opengl
 opengl_OBJECTS = \
 "CMakeFiles/opengl.dir/src/main.cpp.o" \
 "CMakeFiles/opengl.dir/src/loader.cpp.o" \
-"CMakeFiles/opengl.dir/src/error.cpp.o"
+"CMakeFiles/opengl.dir/src/error.cpp.o" \
+"CMakeFiles/opengl.dir/src/renderer.cpp.o" \
+"CMakeFiles/opengl.dir/src/indexBuffer.cpp.o" \
+"CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o"
 
 # External object files for target opengl
 opengl_EXTERNAL_OBJECTS =
@@ -123,9 +168,12 @@ opengl_EXTERNAL_OBJECTS =
 bin/opengl: CMakeFiles/opengl.dir/src/main.cpp.o
 bin/opengl: CMakeFiles/opengl.dir/src/loader.cpp.o
 bin/opengl: CMakeFiles/opengl.dir/src/error.cpp.o
+bin/opengl: CMakeFiles/opengl.dir/src/renderer.cpp.o
+bin/opengl: CMakeFiles/opengl.dir/src/indexBuffer.cpp.o
+bin/opengl: CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o
 bin/opengl: CMakeFiles/opengl.dir/build.make
 bin/opengl: CMakeFiles/opengl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Files/c/opengl/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Files/c/opengl/tmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin/opengl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

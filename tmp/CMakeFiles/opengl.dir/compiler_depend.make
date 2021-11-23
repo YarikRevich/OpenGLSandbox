@@ -229,6 +229,42 @@ CMakeFiles/opengl.dir/src/error.cpp.o: ../src/error.cpp \
   ../vendor/glad/include/glad/glad.h \
   ../vendor/glad/include/KHR/khrplatform.h
 
+CMakeFiles/opengl.dir/src/indexBuffer.cpp.o: ../src/indexBuffer.cpp \
+  ../src/indexBuffer.hpp \
+  ../src/renderer.hpp \
+  ../vendor/glad/include/glad/glad.h \
+  ../vendor/glad/include/KHR/khrplatform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h
+
 CMakeFiles/opengl.dir/src/loader.cpp.o: ../src/loader.cpp \
   ../src/loader.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
@@ -888,14 +924,73 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
   ../vendor/glm/include/glm/gtc/matrix_transform.inl \
   ../vendor/glm/include/glm/geometric.hpp \
   ../vendor/glm/include/glm/trigonometric.hpp \
-  ../vendor/glm/include/glm/matrix.hpp
+  ../vendor/glm/include/glm/matrix.hpp \
+  ../src/renderer.hpp \
+  ../src/indexBuffer.hpp \
+  ../src/vertexBuffer.hpp
 
+CMakeFiles/opengl.dir/src/renderer.cpp.o: ../src/renderer.cpp
+
+CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o: ../src/vertexBuffer.cpp \
+  ../src/vertexBuffer.hpp \
+  ../src/renderer.hpp \
+  ../vendor/glad/include/glad/glad.h \
+  ../vendor/glad/include/KHR/khrplatform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h
+
+
+../src/vertexBuffer.cpp:
+
+../vendor/glm/include/glm/gtc/matrix_transform.inl:
+
+../vendor/glm/include/glm/ext/matrix_transform.inl:
+
+../vendor/glm/include/glm/ext/matrix_transform.hpp:
+
+../vendor/glm/include/glm/detail/type_vec3.inl:
 
 ../vendor/glm/include/glm/ext/matrix_clip_space.hpp:
 
 ../vendor/glm/include/glm/gtc/constants.inl:
 
+../vendor/glm/include/glm/exponential.hpp:
+
 ../vendor/glm/include/glm/ext/scalar_constants.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio:
+
+../vendor/glm/include/glm/ext/matrix_double4x3_precision.hpp:
 
 ../vendor/glm/include/glm/gtc/constants.hpp:
 
@@ -903,17 +998,27 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/detail/func_integer.inl:
 
+../vendor/glm/include/glm/detail/type_mat2x2.hpp:
+
 ../vendor/glm/include/glm/detail/type_half.inl:
 
 ../vendor/glm/include/glm/detail/type_half.hpp:
+
+../src/error.cpp:
 
 ../vendor/glm/include/glm/detail/func_trigonometric.inl:
 
 ../vendor/glm/include/glm/ext/matrix_float2x2_precision.hpp:
 
+../vendor/glm/include/glm/detail/type_vec2.hpp:
+
 ../vendor/glm/include/glm/detail/compute_common.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno:
+
 ../vendor/glm/include/glm/common.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
 
 ../vendor/glm/include/glm/detail/_vectorize.hpp:
 
@@ -923,11 +1028,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/detail/type_vec1.hpp:
 
-../vendor/glm/include/glm/ext/matrix_transform.inl:
-
 ../vendor/glm/include/glm/geometric.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+
 ../vendor/glm/include/glm/detail/func_matrix.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert:
 
 ../vendor/glm/include/glm/ext/matrix_float4x4_precision.hpp:
 
@@ -937,19 +1044,25 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/detail/type_mat4x4.hpp:
 
-../vendor/glm/include/glm/ext/matrix_double4x3_precision.hpp:
-
 ../vendor/glm/include/glm/detail/type_mat4x3.inl:
 
 ../vendor/glm/include/glm/ext/matrix_double4x3.hpp:
+
+../src/renderer.cpp:
 
 ../vendor/glm/include/glm/ext/matrix_float4x2_precision.hpp:
 
 ../vendor/glm/include/glm/detail/type_mat4x2.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h:
+
 ../vendor/glm/include/glm/mat4x2.hpp:
 
 ../vendor/glm/include/glm/detail/type_mat3x4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/string.h:
 
 ../vendor/glm/include/glm/detail/func_packing.inl:
 
@@ -957,9 +1070,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/matrix_double3x4.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
+
 ../vendor/glm/include/glm/ext/matrix_float3x3.hpp:
 
-../vendor/glm/include/glm/ext/matrix_transform.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
+
+../src/indexBuffer.hpp:
 
 ../vendor/glm/include/glm/ext/matrix_float3x2.hpp:
 
@@ -971,11 +1088,17 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/mat2x4.hpp:
 
+../vendor/glm/include/glm/ext/vector_int2.hpp:
+
 ../vendor/glm/include/glm/ext/matrix_float2x3_precision.hpp:
 
 ../vendor/glm/include/glm/ext/matrix_double2x3_precision.hpp:
 
 ../vendor/glm/include/glm/ext/matrix_double2x3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
+
+../vendor/glm/include/glm/ext/vector_double2_precision.hpp:
 
 ../vendor/glm/include/glm/matrix.hpp:
 
@@ -983,7 +1106,11 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/matrix_double2x2.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h:
+
 ../vendor/glm/include/glm/mat3x4.hpp:
+
+../vendor/glm/include/glm/detail/type_mat2x3.inl:
 
 ../vendor/glm/include/glm/mat2x2.hpp:
 
@@ -993,9 +1120,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/vector_int4.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
 ../vendor/glm/include/glm/ext/vector_double4_precision.hpp:
 
 ../vendor/glm/include/glm/ext/vector_float4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h:
 
 ../vendor/glm/include/glm/ext/vector_bool4_precision.hpp:
 
@@ -1004,6 +1135,10 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 ../vendor/glm/include/glm/vec4.hpp:
 
 ../vendor/glm/include/glm/ext/vector_uint3_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
+
+../vendor/glm/include/glm/vec3.hpp:
 
 ../vendor/glm/include/glm/ext/vector_uint3.hpp:
 
@@ -1019,15 +1154,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/vector_bool3_precision.hpp:
 
-../vendor/glm/include/glm/detail/type_vec3.inl:
-
 ../vendor/glm/include/glm/detail/type_vec3.hpp:
 
 ../vendor/glm/include/glm/ext/vector_float4_precision.hpp:
 
 ../vendor/glm/include/glm/ext/scalar_uint_sized.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h:
+
 ../vendor/glm/include/glm/ext/matrix_double4x4_precision.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h:
+
+../vendor/glm/include/glm/ext/matrix_double3x3.hpp:
 
 ../vendor/glm/include/glm/ext/vector_float3_precision.hpp:
 
@@ -1035,15 +1174,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/matrix_float2x2.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h:
+
 ../vendor/glm/include/glm/ext/vector_uint2.hpp:
 
 ../vendor/glm/include/glm/ext/scalar_int_sized.hpp:
-
-../vendor/glm/include/glm/ext/vector_int2.hpp:
-
-../vendor/glm/include/glm/ext/vector_double2_precision.hpp:
-
-../vendor/glm/include/glm/detail/type_vec2.hpp:
 
 ../vendor/glm/include/glm/detail/type_mat3x3.hpp:
 
@@ -1053,21 +1190,27 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/fwd.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/experimental/filesystem:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cfloat:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h:
 
 ../vendor/glm/include/glm/simd/platform.h:
 
 ../vendor/glm/include/glm/detail/setup.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory:
 
 ../vendor/glm/include/glm/detail/func_geometric.inl:
 
 ../vendor/glm/include/glm/detail/_fixes.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/experimental/__config:
 
@@ -1077,13 +1220,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc:
+
+../vendor/glm/include/glm/ext/vector_double2.hpp:
+
 ../vendor/glm/include/glm/ext/matrix_float3x2_precision.hpp:
 
 ../vendor/glm/include/glm/mat3x2.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
 
-../vendor/glm/include/glm/ext/vector_double2.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle:
 
@@ -1091,15 +1240,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../src/loader.hpp:
 
-../vendor/glad/include/glad/glad.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
+../src/renderer.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
+
+../src/indexBuffer.cpp:
+
+../vendor/glad/include/glad/glad.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_isset.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/experimental/filesystem:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_zero.h:
 
@@ -1113,6 +1266,8 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fd_def.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h:
@@ -1121,13 +1276,9 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/vector_bool2_precision.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino64_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h:
-
-../vendor/glm/include/glm/exponential.hpp:
 
 ../vendor/glm/include/glm/detail/type_mat2x2.inl:
 
@@ -1139,29 +1290,31 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_gid_t.h:
 
+../vendor/glm/include/glm/detail/type_mat2x4.hpp:
+
 ../vendor/glm/include/glm/ext/matrix_double2x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_caddr_t.h:
-
-../vendor/glm/include/glm/detail/type_mat2x3.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_char.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/locale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/istream:
 
@@ -1179,17 +1332,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h:
 
+../vendor/glm/include/glm/ext/vector_float2.hpp:
+
 ../vendor/glm/include/glm/detail/type_vec1.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_string.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/mutex:
+
+../vendor/glm/include/glm/ext/matrix_float2x4.hpp:
 
 ../vendor/glm/include/glm/ext/matrix_float4x3_precision.hpp:
 
@@ -1205,15 +1360,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/mat4x4.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional:
+
+../vendor/glm/include/glm/ext/matrix_double4x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h:
 
@@ -1241,6 +1400,8 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo:
 
+../vendor/glm/include/glm/ext/matrix_clip_space.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/errno.h:
 
 ../vendor/glm/include/glm/ext/matrix_double4x2.hpp:
@@ -1253,23 +1414,23 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glad/include/KHR/khrplatform.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio:
-
-../vendor/glm/include/glm/ext/vector_float2.hpp:
+../vendor/glm/include/glm/detail/type_vec2.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple:
 
 ../vendor/glm/include/glm/ext/matrix_double3x2_precision.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wctype.h:
 
@@ -1283,11 +1444,11 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale.h:
 
+../vendor/glm/include/glm/detail/type_mat4x4.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/runetype.h:
-
-../vendor/glm/include/glm/detail/type_mat2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctype.h:
 
@@ -1297,13 +1458,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/wait.h:
 
+../vendor/glm/include/glm/ext/matrix_float4x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/__wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/_wctype.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h:
 
@@ -1317,15 +1478,15 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
+../src/vertexBuffer.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros:
 
@@ -1339,27 +1500,19 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_stdio.h:
 
-../vendor/glm/include/glm/ext/matrix_double3x3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdio.h:
 
 ../vendor/glm/include/glm/detail/type_mat4x2.inl:
 
-../vendor/glm/include/glm/detail/type_vec2.inl:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
 
 ../vendor/glm/include/glm/detail/type_mat2x4.inl:
 
-../src/error.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility:
 
@@ -1383,6 +1536,8 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
 
+../vendor/glm/include/glm/ext/matrix_float2x3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h:
@@ -1393,21 +1548,15 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h:
+
 ../vendor/glm/include/glm/ext/vector_float2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h:
-
 ../vendor/glm/include/glm/detail/type_mat3x2.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ct_rune_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__errc:
 
 ../src/main.cpp:
 
@@ -1421,6 +1570,8 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__mutex_base:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h:
@@ -1429,19 +1580,17 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h:
 
+../vendor/glm/include/glm/trigonometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
 
 ../vendor/glm/include/glm/ext/matrix_double3x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h:
 
@@ -1450,8 +1599,6 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h:
 
@@ -1463,35 +1610,25 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/string.h:
-
 ../vendor/glm/include/glm/ext/vector_uint4_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
 ../vendor/glm/include/glm/ext/matrix_float3x4_precision.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h:
-
 ../vendor/glm/include/glm/ext/matrix_float3x4.hpp:
-
-../vendor/glm/include/glm/ext/matrix_float2x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_mcontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mode_t.h:
-
-../vendor/glm/include/glm/ext/matrix_clip_space.inl:
 
 ../vendor/glm/include/glm/ext/scalar_constants.hpp:
 
@@ -1505,7 +1642,11 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/detail/func_common.inl:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
+
 ../vendor/glm/include/glm/detail/type_vec4.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h:
 
@@ -1517,8 +1658,6 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string:
 
-../vendor/glm/include/glm/trigonometric.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_mcontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip:
@@ -1527,19 +1666,15 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/ext/vector_bool4.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h:
 
 ../vendor/glm/include/glm/ext/vector_int4_sized.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/_types.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/appleapiopts.h:
 
-../vendor/glm/include/glm/vec3.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h:
+
+../src/error.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
 
@@ -1547,25 +1682,13 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios:
 
-../vendor/glm/include/glm/ext/matrix_float4x3.hpp:
-
 ../vendor/glm/include/glm/detail/qualifier.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
-
 ../vendor/glm/include/glm/detail/compute_vector_relational.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h:
-
-../vendor/glm/include/glm/ext/matrix_float2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_short.h:
 
@@ -1573,13 +1696,7 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
-../vendor/glm/include/glm/detail/type_mat4x4.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h:
 
@@ -1592,10 +1709,6 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h:
-
-../vendor/glm/include/glm/detail/type_mat2x2.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h:
 
 ../src/loader.cpp:
 
@@ -1613,8 +1726,6 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/float.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
-
 ../vendor/glm/include/glm/detail/func_exponential.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/xlocale/__wctype.h:
@@ -1631,37 +1742,23 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h:
 
-../vendor/glm/include/glm/gtc/matrix_transform.inl:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/mach/machine/_structs.h:
-
-../vendor/glm/include/glm/ext/matrix_double4x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/malloc/_malloc.h:
-
 /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/locale.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/i386/signal.h:
 
 ../vendor/glm/include/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_endian.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd:
 
@@ -1669,18 +1766,10 @@ CMakeFiles/opengl.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../vendor/glm/include/glm/mat4x3.hpp:
 
-../src/error.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:

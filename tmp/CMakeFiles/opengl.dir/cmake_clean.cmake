@@ -1,10 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/opengl.dir/src/error.cpp.o"
   "CMakeFiles/opengl.dir/src/error.cpp.o.d"
+  "CMakeFiles/opengl.dir/src/indexBuffer.cpp.o"
+  "CMakeFiles/opengl.dir/src/indexBuffer.cpp.o.d"
   "CMakeFiles/opengl.dir/src/loader.cpp.o"
   "CMakeFiles/opengl.dir/src/loader.cpp.o.d"
   "CMakeFiles/opengl.dir/src/main.cpp.o"
   "CMakeFiles/opengl.dir/src/main.cpp.o.d"
+  "CMakeFiles/opengl.dir/src/renderer.cpp.o"
+  "CMakeFiles/opengl.dir/src/renderer.cpp.o.d"
+  "CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o"
+  "CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o.d"
   "bin/opengl"
   "bin/opengl.pdb"
 )

@@ -153,6 +153,30 @@ src/error.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/error.cpp.s
 .PHONY : src/error.cpp.s
 
+src/indexBuffer.o: src/indexBuffer.cpp.o
+.PHONY : src/indexBuffer.o
+
+# target to build an object file
+src/indexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/indexBuffer.cpp.o
+.PHONY : src/indexBuffer.cpp.o
+
+src/indexBuffer.i: src/indexBuffer.cpp.i
+.PHONY : src/indexBuffer.i
+
+# target to preprocess a source file
+src/indexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/indexBuffer.cpp.i
+.PHONY : src/indexBuffer.cpp.i
+
+src/indexBuffer.s: src/indexBuffer.cpp.s
+.PHONY : src/indexBuffer.s
+
+# target to generate assembly for a file
+src/indexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/indexBuffer.cpp.s
+.PHONY : src/indexBuffer.cpp.s
+
 src/loader.o: src/loader.cpp.o
 .PHONY : src/loader.o
 
@@ -201,6 +225,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/renderer.o: src/renderer.cpp.o
+.PHONY : src/renderer.o
+
+# target to build an object file
+src/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/renderer.cpp.o
+.PHONY : src/renderer.cpp.o
+
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
+
+# target to preprocess a source file
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
+
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
+
+# target to generate assembly for a file
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
+
+src/vertexBuffer.o: src/vertexBuffer.cpp.o
+.PHONY : src/vertexBuffer.o
+
+# target to build an object file
+src/vertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/vertexBuffer.cpp.o
+.PHONY : src/vertexBuffer.cpp.o
+
+src/vertexBuffer.i: src/vertexBuffer.cpp.i
+.PHONY : src/vertexBuffer.i
+
+# target to preprocess a source file
+src/vertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/vertexBuffer.cpp.i
+.PHONY : src/vertexBuffer.cpp.i
+
+src/vertexBuffer.s: src/vertexBuffer.cpp.s
+.PHONY : src/vertexBuffer.s
+
+# target to generate assembly for a file
+src/vertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl.dir/build.make CMakeFiles/opengl.dir/src/vertexBuffer.cpp.s
+.PHONY : src/vertexBuffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +285,21 @@ help:
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
+	@echo "... src/indexBuffer.o"
+	@echo "... src/indexBuffer.i"
+	@echo "... src/indexBuffer.s"
 	@echo "... src/loader.o"
 	@echo "... src/loader.i"
 	@echo "... src/loader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/renderer.o"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
+	@echo "... src/vertexBuffer.o"
+	@echo "... src/vertexBuffer.i"
+	@echo "... src/vertexBuffer.s"
 .PHONY : help
 
 

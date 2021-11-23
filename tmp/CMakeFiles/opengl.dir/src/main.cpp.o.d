@@ -420,4 +420,7 @@ CMakeFiles/opengl.dir/src/main.cpp.o: \
   /Volumes/Files/c/opengl/vendor/glm/include/glm/gtc/matrix_transform.inl \
   /Volumes/Files/c/opengl/vendor/glm/include/glm/gtc/../geometric.hpp \
   /Volumes/Files/c/opengl/vendor/glm/include/glm/gtc/../trigonometric.hpp \
-  /Volumes/Files/c/opengl/vendor/glm/include/glm/gtc/../matrix.hpp
+  /Volumes/Files/c/opengl/vendor/glm/include/glm/gtc/../matrix.hpp \
+  /Volumes/Files/c/opengl/src/renderer.hpp \
+  /Volumes/Files/c/opengl/src/indexBuffer.hpp \
+  /Volumes/Files/c/opengl/src/vertexBuffer.hpp

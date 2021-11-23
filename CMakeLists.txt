@@ -16,7 +16,7 @@ link_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/glad/lib/
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/glew/lib/)
 
-add_executable(opengl src/main.cpp src/loader.cpp src/error.cpp)
+add_executable(opengl src/main.cpp src/loader.cpp src/error.cpp src/renderer.cpp src/indexBuffer.cpp src/vertexBuffer.cpp)
 target_link_libraries(opengl 
 libglfw.3.3.dylib
 libglad.a

@@ -2,37 +2,36 @@
 #shader fragment
 #version 410 core
 
-in vec3 TexCoord;
+in vec4 TexCoord;
         
-layout(location = 0) out vec3 color;
+out vec4 color;
         
-// uniform BlobSettings {
-//     vec4 InnerColor
-//     vec4 OuterColor
-//     float InnerRadius;
-//     float OuterRadius;
-// };
+layout (std140) uniform BlobSettings {
+    vec4 InnerColor;
+    vec4 OuterColor;
+    float InnerRadius;
+    float OuterRadius;
+};
 
 void main(){
-    // float dx = TextCoord.x + 0.5;
-    // float dy = TextCoord.x - 0.5;
-    // float dist = sqrt(dx * dx + dy * dy)
+    float dx = TexCoord.x;
+    float dy = TexCoord.y;
+    float dist = sqrt(dx * dx + dy * dy);
 
-    color = vec3(1.0, 1.0, 1.0);
-    // color = mix(InnerColor, OuterColor, smoothstep(InnerRadius, OuterRadius, dist))
+    color = vec4(mix(InnerColor, OuterColor, smoothstep(InnerRadius, OuterRadius, dist)));
 }
 
 #shader vertex
 #version 410 core
     
-layout(location = 0) in vec4 position;
-// layout(location = 1) in vec3
+layout(location = 0) in vec4 VertexPosition;
+layout(location = 1) in vec4 VertexTexCoord;
 
-out vec3 TexCoord;
+out vec4 TexCoord;
     
 uniform mat4 RotationMatrix;
 
 void main(){
-// TexCoord = ;
-   gl_Position = RotationMatrix * position;
+    TexCoord = VertexTexCoord;
+    gl_Position = RotationMatrix * VertexPosition;
 }
